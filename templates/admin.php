@@ -41,10 +41,16 @@
             <p><label
                     for="cas_cert_path"><?php p($l->t('Certification file path (.crt). Leave empty if dont want to validate')); ?></label><input
                     type="text" id="cas_cert_path" name="cas_cert_path" value="<?php p($_['cas_cert_path']); ?>"></p>
+
+            <p><label for="cas_redirect_after_logout"><?php p($l->t('Redirect after logout')); ?></label><input type="text"
+                                                                                            id="cas_redirect_after_logout"
+                                                                                            name="cas_redirect_after_logout"
+                                                                                            value="<?php p($_['cas_redirect_after_logout']); ?>">
+            </p>
         </fieldset>
         <fieldset id="casSettings-2">
-            <!-- <p><input type="checkbox" id="cas_force_login"
-                      name="cas_force_login" <?php /*print_unescaped((($_['cas_force_login'] === 'true' || $_['cas_force_login'] === 'on') ? 'checked="checked"' : ''));*/ ?>>
+            <p><input type="checkbox" id="cas_force_login"
+                      name="cas_force_login" <?php print_unescaped((($_['cas_force_login'] === 'true' || $_['cas_force_login'] === 'on') ? 'checked="checked"' : '')); ?>>
                 <label class='checkbox' for="cas_force_login"><?php p($l->t('Force user login using CAS?')); ?></label>
             </p>
             <p><input type="checkbox" id="cas_disable_logout"
@@ -52,7 +58,7 @@
                                                         print_unescaped((($_['cas_force_login'] === 'false' || $_['cas_force_login'] === 'off') ? 'disabled="disabled"' : ''));*/ ?>>
                 <label class='checkbox'
                        for="cas_disable_logout"><?php p($l->t('Disable CAS logout (do only OwnCloud logout) [Only works when "Force user login using CAS?" is enabled]')); ?></label>
-            </p>-->
+            </p>
             <p><input type="checkbox" id="cas_autocreate"
                       name="cas_autocreate" <?php print_unescaped((($_['cas_autocreate'] === 'true' || $_['cas_autocreate'] === 'on') ? 'checked="checked"' : '')); ?>>
                 <label class='checkbox'
