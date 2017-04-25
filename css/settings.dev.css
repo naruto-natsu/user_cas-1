@@ -20,6 +20,10 @@
     width: auto;
 }
 #forceCAS {
-    padding-left:5em;
+    padding-left:3em;
+}
+#forceCAS label{
+    display:inline-block;
+    width:28em;
 }
 

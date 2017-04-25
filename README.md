@@ -49,9 +49,9 @@ Basic
 
 **Force user login using CAS?**: If checked, you will only be logged from your CAS instance.
 
-**Redirect after logout**: Only if force user login using CAS checked.
+* **Redirect after logout**: Only if force user login using CAS checked. Redirect to spécific url.
 
-**Disable CAS logout**: If checked, you will only be logged out from owncloud and not from your CAS instance.
+* **Disable CAS logout**: If checked, you will only be logged out from owncloud and not from your CAS instance.
 
 **Autocreate user**: This option enables automatic creation of users authenticated against CAS. This means, users which do not exist in the database yet authenticate against CAS and the app will create and store them in the database on their first login. Default: on.
 
@@ -125,6 +125,7 @@ Current Version, since 1.4.4:
 * Naruto-natsu - https://github.com/naruto-natsu/user_cas-1.git
 
 Older Versions:
+* Felix Rupp - https://github.com/felixrupp
 * Sixto Martin Garcia - https://github.com/pitbulk
 * David Willinger (Leonis Holding)  - https://github.com/leoniswebDAVe
 * Florian Hintermeier (Leonis Holding)  - https://github.com/leonisCacheFlo
