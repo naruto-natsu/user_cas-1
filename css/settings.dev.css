@@ -6,7 +6,7 @@
 }
 
 #casSettings input[type="text"] {
-    width: 15em;
+    width: 20em;
     margin-left: 3px;
 }
 
@@ -19,3 +19,7 @@
     display: inline;
     width: auto;
 }
+#forceCAS {
+    padding-left:5em;
+}
+
