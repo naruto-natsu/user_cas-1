@@ -98,7 +98,7 @@ If you set the "protected groups" field, those groups will not be unlinked from 
 Bugs and Support
 ==============
 
-Please contribute bug reports and feedback to https://github.com/felixrupp/user_cas/issues 
+Please contribute bug reports and feedback to https://github.com/naruto-natsu/user_cas-1/issues 
 If you are observing undesired behaviour, think it is a bug and want to tell us about, please include following parts:
 * What led up to the situation?
 * What exactly did you do (or not do) that was effective (or ineffective)?
